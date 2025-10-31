@@ -4,21 +4,18 @@ Nathan Dantas 24.122.041-7
 
 ##  Requisitos e Metas do Sistema
 
-**Requisitos principais:**
+**Requisitos:**
 
 * Usuários simultâneos esperados: **10.000**
 * Tempo de resposta (P95): **< 500 ms** para 95% das requisições
 * Disponibilidade: **≥ 99.9%** durante o evento
 * Throughput sustentado: **> 2000 req/s**
 * Ponto de quebra (estresse): **> 15.000 usuários**
-* Eficiência horizontal: **> 80%**
 * Rate limiting: **100 req/min/IP**
 
 ---
 
 ## Tipos de Teste e Objetivos
-
-O plano contempla os seguintes **testes não funcionais**:
 
 * **Desempenho:** latências e percentis (P50, P95, P99).
 * **Carga:** throughput sustentado e estabilidade.
