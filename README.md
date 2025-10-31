@@ -20,7 +20,6 @@ Nathan Dantas 24.122.041-7
 * **Desempenho:** latências e percentis (P50, P95, P99).
 * **Carga:** throughput sustentado e estabilidade.
 * **Estresse:** identificar o ponto de quebra de performance.
-* **Escalabilidade:** eficiência ao adicionar instâncias.
 * **Segurança:** verificar aplicação do rate limiting e resistência a ataques.
 
 ---
